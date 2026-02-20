@@ -12,7 +12,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
 ALLOWED_HOSTS = [
-    'https://polideportivo-backend.up.railway.app'
+    'https://polideportivo-backend.up.railway.app/'
 ]
 
 
