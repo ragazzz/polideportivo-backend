@@ -122,7 +122,8 @@ STATIC_URL = "/static/"
 
 # CORS
 CORS_ALLOWED_ORIGINS = [
-    'https://reservas-polideportivo-unemi.vercel.app'
+    'https://reservas-polideportivo-unemi.vercel.app',
+    'http://localhost:5173'
 ]
 
 CORS_ALLOW_CREDENTIALS = True
