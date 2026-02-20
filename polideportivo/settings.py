@@ -41,6 +41,9 @@ REST_FRAMEWORK = {
     ]
 }
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://polideportivo-backend.up.railway.app",
+]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
