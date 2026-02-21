@@ -122,8 +122,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # CORS
 CORS_ALLOWED_ORIGINS = [
-    'https://reservas-polideportivo-unemi.vercel.app',
-    'http://localhost:5173'
+    'https://reservas-polideportivo-unemi.vercel.app'
 ]
 
 CORS_ALLOW_CREDENTIALS = True
