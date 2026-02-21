@@ -12,7 +12,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
 ALLOWED_HOSTS = [
-    '*'
+    'polideportivo-backend.onrender.com'
 ]
 
 
@@ -42,7 +42,7 @@ REST_FRAMEWORK = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://polideportivo-backend.up.railway.app",
+    "https://polideportivo-backend.onrender.com",
 ]
 
 MIDDLEWARE = [
